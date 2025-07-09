@@ -1881,6 +1881,7 @@ export const extractDependencies = (solidityCode: string) => {
     while ((match = importRegex.exec(code)) !== null) {
       const importPath = match[1].trim();
 
+
       const normalizedPath = importPath.replace(/^\.\//, "");
 
       if (dependencySources[normalizedPath]) {
@@ -1895,10 +1896,10 @@ export const extractDependencies = (solidityCode: string) => {
   };
 
   // Start processing from the main contract with modified code
-  processFile(modifiedCode, "contract.sol");
+  processFile(solidityCode, "contract.sol");
 
   // Store the modified code in dependencies
-  requiredDependencies["contract.sol"] = { content: modifiedCode };
+  requiredDependencies["contract.sol"] = { content: solidityCode };
 
   console.log("Final dependencies:", Object.keys(requiredDependencies));
   return requiredDependencies;
