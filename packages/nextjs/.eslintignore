@@ -1,0 +1,12 @@
+# folders
+.next
+.env
+node_modules/
+# files
+**/*.less
+**/*.css
+**/*.scss
+**/*.json
+**/*.png
+**/*.svg
+**/generated/**/*
