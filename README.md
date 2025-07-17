@@ -1,4 +1,4 @@
-# SmUtils – Contract Explorer & Deploy Contract https://sm-utils-nextjs.vercel.app/
+# SmUtils – Contract Explorer & Deploy Contract: https://sm-utils-nextjs.vercel.app/
 
 ## Overview
 
