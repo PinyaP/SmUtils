@@ -1,6 +1,6 @@
 # SmUtils – Contract Explorer & Deploy Contract
 
-## Live Demo URL: 
+## Live Demo URL
 
 [https://sm-utils-nextjs.vercel.app/](https://sm-utils-nextjs.vercel.app/)
 
